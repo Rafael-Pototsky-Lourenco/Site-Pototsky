@@ -1,8 +1,51 @@
-#container2
+#container
 {
      display: flex;
      justify-content: center;
      align-items: center;
-     background-color: darkred;
-     color: whitesmoke;
+
+     color: black;
+}
+
+.aboutMe
+{
+     text-align: center;
+     margin-top: 3%;
+     font-size: 2.3em;
+     color: rgb(100, 69, 49);
+}
+
+.knowMore
+{
+     font-size: 0.5em;
+     font-style: italic;
+     color: grey;
+}
+
+.trailImage
+{
+     justify-content: center;
+     align-items: center;
+     display: flex;
+     border-radius: 50%;
+     border: 5px solid gray;
+}
+
+.textAboutMe
+{
+     font-size: 1.2em;
+     text-align: end;
+}
+
+.textAboutMe2
+{
+     font-size: 1.2em;
+     text-align: start;
+}
+
+.trail
+{
+     background-color: gray;
+     background-position: center;
+     width: 1px;
 }

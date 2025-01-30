@@ -4,20 +4,19 @@ html, body
      overflow-x: hidden;
 }
 
+#headerFundo
+{
+     background: url('../../../assets/imagens/header-bg.jpg') no-repeat fixed top;
+     background-position-y: -300px;
+     background-attachment: fixed;
+}
+
 nav.navbar-light .navbar-nav .nav-link
 {
      color: rgb(255, 255, 255);
      font-size: 1.2em;
      padding-left: 5px;
-     text-shadow: 2px 2px 2px #474141;
-}
-
-.nav-separa
-{
-     width: 1px;
-     background-color: white;
-     margin: 12px 15px;
-     
+     text-shadow: 2px 2px 2px #474141;  
 }
 
 .name
@@ -38,9 +37,13 @@ nav.navbar-light .navbar-nav .nav-link
 
 .navbar
 {
-     position: relative;
+     position: fixed;
      width: 100%;
-     //background: linear-gradient(50deg, black, grey);
+     // background-color: transparent;
+     // transition:
+     //      padding-top 0.3s ease-in-out,
+     //      padding-bottom 0.3s ease-in-out;
+     background: linear-gradient(75deg, #474141, #8f8080);
 
      .nav-item
      {
