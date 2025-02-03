@@ -3,7 +3,6 @@
      display: flex;
      justify-content: center;
      align-items: center;
-
      color: black;
 }
 
@@ -22,30 +21,16 @@
      color: grey;
 }
 
+.borderImage
+{
+     border-radius: 50%;
+     border: 6px solid gray;
+}
+
 .trailImage
 {
+     display: flex;
      justify-content: center;
      align-items: center;
-     display: flex;
-     border-radius: 50%;
-     border: 5px solid gray;
-}
-
-.textAboutMe
-{
-     font-size: 1.2em;
-     text-align: end;
-}
-
-.textAboutMe2
-{
-     font-size: 1.2em;
-     text-align: start;
-}
-
-.trail
-{
-     background-color: gray;
-     background-position: center;
-     width: 1px;
+     margin-bottom: 5%;
 }

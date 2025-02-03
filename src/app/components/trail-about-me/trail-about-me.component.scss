@@ -1,0 +1,37 @@
+.trailImage
+{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-bottom: 5%;
+}
+
+.borderImage
+{
+     border-radius: 50%;
+     border: 6px solid gray;
+}
+
+.paragraphLeft
+{
+     width: 50%;
+     margin-left: 50%;
+}
+
+.textAboutMeLeft
+{
+     font-size: 1.1em;
+     text-align: end;
+}
+
+.paragraphRight
+{
+     width: 50%;
+     margin-right: 50%;
+}
+
+.textAboutMeRight
+{
+     font-size: 1.1em;
+     text-align: start;
+}

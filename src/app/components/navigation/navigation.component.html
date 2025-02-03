@@ -1,49 +1,21 @@
 <nav>
      <div id="container">
-          <div class="aboutMe">
+          <div id="sobre" class="aboutMe">
                <h2>SOBRE MIM</h2>
 
                <p class="knowMore" style="font-size: 0.5em;">Saiba sobre minha carreira</p>
           </div>
      </div>
 
-     <div class="d-flex">
-          <div class="col-md-5 textAboutMe">
-               <h3>2023</h3>
-               <h3>Primeiro Trabalho</h3>
-               <p>Começo a minha jornada de trabalho, trabalhando como Recepcionista de Hotel.</p>
-          </div>
-          <div class="col-md-2 trail">
-               <img class="trailImage" src="../../../assets/imagens/iconeIAComFundo.png" width="130px" height="130px">
-          </div>
-     </div>
-     <div class="d-flex">
-          <div class="col-md-5">
-               
-          </div>
-          <div class="col-md-2 trail">
-               <img class="trailImage" src="../../../assets/imagens/iconeIAComFundo.png" width="130px" height="130px">
-          </div>
-          <div class="col-md-4 textAboutMe2">
-               <h3>2023</h3>
-               <h3>Segundo Trabalho</h3>
-               <p>Após receber uma promoção, fui para o Financeiro do Super Rede, onde pegava os mercados e os hotéis.</p>
-          </div>
-     </div>
-     <div class="d-flex">
-          <div class="col-md-5 textAboutMe">
-               <h3>2024</h3>
-               <h3>Trabalho Atual</h3>
-               <p>Após mudar de cidade, comecei finalmente na área da programação, trabalhando na Consilux Consultoria de Técnico de TI Junior.</p>
-          </div>
-          <div class="col-md-2 trail">
-               <img class="trailImage" src="../../../assets/imagens/iconeIAComFundo.png" width="130px" height="130px">
-          </div>
-     </div>
-     <div class="d-flex">
-          <div class="col-md-5 textAboutMe"></div>
-          <div class="col-md-2 trail">
-               <img class="trailImage" src="../../../assets/imagens/continua.jpg" width="130px" height="130px">
-          </div>
-     </div>
+     <app-trail-about-me
+     [aboutMeLeft1]="aboutMe1"
+     [aboutWorkLeft1]="work1"
+     [aboutNumberLeft1]="year1"
+     [aboutMeRight]="aboutMe2"
+     [aboutWorkRight]="work2"
+     [aboutNumberRight]="year2"
+     [aboutMeLeft2]="aboutMe3"
+     [aboutWorkLeft2]="work3"
+     [aboutNumberLeft2]="year3"
+     ></app-trail-about-me>
 </nav>

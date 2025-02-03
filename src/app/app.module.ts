@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { NavigationComponent } from './components/navigation/navigation.component';
+import { TrailAboutMeComponent } from './components/trail-about-me/trail-about-me.component';
 
 @NgModule({
   declarations: [	
     AppComponent,
     HeaderComponent,
-    NavigationComponent
+    NavigationComponent,
+    TrailAboutMeComponent,
   ],
   imports: [
     BrowserModule,
