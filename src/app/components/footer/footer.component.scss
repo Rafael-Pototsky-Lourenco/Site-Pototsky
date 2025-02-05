@@ -6,10 +6,29 @@
      color: black;
 }
 
+#contact
+{
+     background: url(../../../assets/imagens/contactWallpaper.jpg) no-repeat top;
+     padding-top: 3%;
+     padding-bottom: 3%;
+}
+
 .aboutContact
 {
      text-align: center;
      margin-top: 3%;
      font-size: 2.3em;
-     color: rgb(100, 69, 49);
+     color: white;
+}
+
+.cardContact
+{
+     background-color: white;
+     border-radius: 15px;
+}
+
+.footer
+{
+     display: flex;
+     text-align: left;
 }
