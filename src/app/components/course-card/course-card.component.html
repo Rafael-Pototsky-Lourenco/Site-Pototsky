@@ -1,0 +1,18 @@
+<ul>
+     <li class="courses">
+          <div class="numba">
+               <p>{{ courseNumber + 1 }}</p>
+          </div>
+          
+          <div class="courseMade">
+               <img class="imageCourses" [src]="courseImage" height="80" width="80">
+               <div class="textCourses">
+                    <h5><b> {{ courseName }} </b></h5>
+                    <span><b> Instituição: </b> {{ courseInstitution }} </span><br>
+                    <span><b>Tags:</b> {{ courseTags }} </span><br>
+                    <span><b>Concluído em:</b> {{ courseConclusion }} </span>
+                    <a class="linkCourse" [href]="courseLink" target="_blank">Certificado</a>
+               </div>
+          </div>
+     </li>
+</ul>

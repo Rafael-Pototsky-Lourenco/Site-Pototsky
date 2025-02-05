@@ -7,6 +7,8 @@ import { HeaderComponent } from './components/header/header.component';
 import { NavigationComponent } from './components/navigation/navigation.component';
 import { TrailAboutMeComponent } from './components/trail-about-me/trail-about-me.component';
 import { CourseComponent } from './components/course/course.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { CourseCardComponent } from './components/course-card/course-card.component';
 
 @NgModule({
   declarations: [	
@@ -15,6 +17,8 @@ import { CourseComponent } from './components/course/course.component';
     NavigationComponent,
     TrailAboutMeComponent,
     CourseComponent,
+    FooterComponent,
+    CourseCardComponent,
   ],
   imports: [
     BrowserModule,

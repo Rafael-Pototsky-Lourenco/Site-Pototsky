@@ -1,1 +1,20 @@
-<p>course works!</p>
+<nav id="course">
+     <div class="container">
+          <div class="aboutCourse">
+               <h2>CURSOS</h2>
+     
+               <p class="knowMoreCourse" style="font-size: 0.5em;">Abaixo estão os cursos que eu já fiz</p>
+          </div>
+
+          <app-course-card
+          *ngFor="let course of courses; let i = index"
+          [courseName]="course.name"
+          [courseInstitution]="course.institution"
+          [courseTags]="course.tags"
+          [courseConclusion]="course.conclusion"
+          [courseLink]="course.link"
+          [courseNumber]="i"
+          [courseImage]="course.image"
+          ></app-course-card>
+     </div>
+</nav>

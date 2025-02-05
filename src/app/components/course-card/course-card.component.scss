@@ -1,0 +1,41 @@
+.courses
+{
+     border: 1px solid grey;
+     border-radius: 15px;
+     display: flex;
+     align-items: center;
+}
+
+.courseMade
+{
+     display: flex;
+     align-items: center;
+
+     img
+     {
+          margin: 0 20px 0 20px;
+          border-radius: 50px;
+     }
+}
+
+.textCourses
+{
+     margin: 3% 0 3% 0;
+     width: 1000px;
+}
+
+.linkCourse
+{
+     margin-left: 3%;
+}
+
+.numba
+{
+     background-color: darkred;
+     color: white;
+     border-radius: 50px;
+     width: 25px;
+     height: 25px;
+     text-align: center;
+     margin-left: 2%;
+}
