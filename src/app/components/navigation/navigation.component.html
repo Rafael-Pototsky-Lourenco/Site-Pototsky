@@ -8,14 +8,11 @@
      </div>
 
      <app-trail-about-me
-     [aboutMeLeft1]="aboutMe1"
-     [aboutWorkLeft1]="work1"
-     [aboutNumberLeft1]="year1"
-     [aboutMeRight]="aboutMe2"
-     [aboutWorkRight]="work2"
-     [aboutNumberRight]="year2"
-     [aboutMeLeft2]="aboutMe3"
-     [aboutWorkLeft2]="work3"
-     [aboutNumberLeft2]="year3"
+     *ngFor="let about of abouts; let i = index"
+     [aboutMe]="about.aboutMe"
+     [aboutWork]="about.work"
+     [aboutYear]="about.year"
+     [aboutImage]="about.image"
+     [isLeft]="i % 2 === 0"
      ></app-trail-about-me>
 </nav>
