@@ -15,6 +15,7 @@
      {
           margin: 0 20px 0 20px;
           border-radius: 50px;
+          border: 3px solid grey;
      }
 }
 
@@ -27,6 +28,12 @@
 .linkCourse
 {
      margin-left: 3%;
+     text-decoration: none;
+}
+
+.linkCourse:hover
+{
+     color: red;
 }
 
 .numba
