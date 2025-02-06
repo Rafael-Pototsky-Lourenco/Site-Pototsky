@@ -38,6 +38,8 @@
           {
                border: 5px solid gray;
                border-radius: 100px;
+               width: 208px;
+               height: 208px;
           }
      }
 
@@ -78,4 +80,9 @@
 .footer
 {
      text-align: center;
+}
+
+.titleContact
+{
+     text-shadow: 2px 4px 4px grey;
 }

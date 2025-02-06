@@ -33,5 +33,7 @@ export class NavigationComponent {
       year: '',
       image: '../../../assets/imagens/jornadaContinua.png',
     }
-  ]
+  ];
+  aboutMyself: string = 'SOBRE MIM';
+  myCareer: string = 'Saiba sobre minha carreira';
 }

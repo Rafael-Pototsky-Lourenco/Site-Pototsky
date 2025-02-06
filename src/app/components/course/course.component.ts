@@ -57,5 +57,7 @@ export class CourseComponent {
       link: '',
       image: '../../../assets/imagens/sescSenacLogo.jpg'
     },
-  ]
+  ];
+  course: string = 'CURSOS';
+  courseIMade: string = 'Abaixo estão os cursos que eu já fiz';
 }
