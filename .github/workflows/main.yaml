@@ -16,7 +16,7 @@ jobs:
     - name: Adding Node.js
       uses: actions/setup-node@v2
       with:
-        node-version: 18
+        node-version: 22.12.0
 
     - name: Install Dependencies
       run: npm install
@@ -26,6 +26,8 @@ jobs:
 
     - name: Deploy to gh pages
       run: |
+        git config --global user.name "Rafael Pototsky Lourenço"
+        git config --global user.email "rafaelpototskylourenco10@gmail.com"
         npx angular-cli-ghpages --dir=dist/meu-site/browser --no-silent
       env:
         CI: true
