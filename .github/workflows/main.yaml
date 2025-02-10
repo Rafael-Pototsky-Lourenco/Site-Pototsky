@@ -29,5 +29,5 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-          BRANCH: main
+          BRANCH: gh-pages
           FOLDER: dist/meu-site/browser
