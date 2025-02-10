@@ -25,11 +25,9 @@ jobs:
     - name: Build Angular App
       run: npm run build
 
-    - name: Deploy to gh pages
-      run: |
-        git config --global user.name "Rafael Pototsky Lourenço"
-        git config --global user.email "rafaelpototskylourenco10@gmail.com"
-        npx angular-cli-ghpages --dir=dist/meu-site/browser --no-silent
-      env:
-        CI: true
-        GH_TOKEN: ${{ secrets.GH_TOKEN }}
+    - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          BRANCH: main
+          FOLDER: dist/meu-site/browser
