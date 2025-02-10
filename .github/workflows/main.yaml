@@ -24,9 +24,12 @@ jobs:
     - name: Build Angular App
       run: npm run build
 
+    - name: Disable Jekyll
+      run: touch dist/meu-site/.nojekyll
+
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
         GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         BRANCH: gh-pages
-        FOLDER: dist/meu-site/browser
+        FOLDER: dist/meu-site
