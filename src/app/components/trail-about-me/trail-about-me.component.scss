@@ -37,3 +37,81 @@
      font-size: 1.1em;
      text-align: start;
 }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 575.98px)
+{ 
+     .textAboutMeLeft
+     {
+          margin-right: 5%;
+     }
+     .paragraphLeft
+     {
+          text-align: start;
+     }
+
+     .textAboutMeRight
+     {
+          margin-left: 5%;
+     }
+     .paragraphRight
+     {
+          width: 70%;
+     }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 576px) and (max-width: 767.98px)
+{
+     .textAboutMeLeft
+     {
+          margin-right: 30%;
+     }
+     .paragraphLeft
+     {
+          text-align: start;
+          width: 100%;
+     }
+
+     .textAboutMeRight
+     {
+          margin-left: 30%;
+     }
+     .paragraphRight
+     {
+          width: 100%;
+     }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px)
+{
+     .textAboutMeLeft
+     {
+          padding-right: 3%;
+     }
+
+     .textAboutMeRight
+     {
+          padding-left: 3%;
+     }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px)
+{
+     .textAboutMeLeft
+     {
+          padding-right: 3%;
+     }
+
+     .textAboutMeRight
+     {
+          padding-left: 3%;
+     }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px)
+{
+}
