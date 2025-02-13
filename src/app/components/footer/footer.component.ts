@@ -24,8 +24,8 @@ export class FooterComponent {
   age: string = 'Idade:';
   ageText: string = '20 Anos';
 
-  separation: string = '--------------------------------------------------';
-  googleLink: string = 'https://mail.google.com/mail/u/0/#inbox?compose=VpCqJVGFXMpmsXwmFtcbPrWPcCpHRfbkQZZZwPqljNRjnLXXrhsjppbchBPsdSFTXKkLtRQ';
+  separation: string = '--------------------------------------------';
+  googleLink: string = 'mailto:rafaelpototskylourenco10@gmail.com?subject=Contato Website PototskyDev';
   linkedinLink: string = 'https://www.linkedin.com/in/rafael-pototsky-12b20b2a7/';
   instagramLink: string = 'https://www.instagram.com/rafa_pototsky/';
   githubLink: string = 'https://github.com/Rafael-Pototsky-Lourenco';
