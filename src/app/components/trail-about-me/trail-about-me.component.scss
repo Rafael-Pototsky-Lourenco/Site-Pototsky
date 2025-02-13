@@ -75,7 +75,7 @@
 
      .textAboutMeRight
      {
-          margin-left: 30%;
+          margin-left: 25%;
      }
      .paragraphRight
      {
@@ -90,10 +90,20 @@
      {
           padding-right: 3%;
      }
+     .paragraphLeft
+     {
+          padding-right: 40%;
+          text-align: start;
+          width: 100%;
+     }
 
      .textAboutMeRight
      {
-          padding-left: 3%;
+          padding-left: 5%;
+     }
+     .paragraphRight
+     {
+          width: 100%;
      }
 }
 
@@ -104,10 +114,20 @@
      {
           padding-right: 3%;
      }
+     .paragraphLeft
+     {
+          padding-right: 40%;
+          text-align: start;
+          width: 100%;
+     }
 
      .textAboutMeRight
      {
           padding-left: 3%;
+     }
+     .paragraphRight
+     {
+          width: 100%;
      }
 }
 
