@@ -161,6 +161,10 @@ h1
      {
           padding: 0.5em 0;
      }
+     nav.navbar-light .navbar-nav .nav-link
+     {
+          padding: 0;
+     }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -185,13 +189,26 @@ h1
      {
           padding: 0.5em 0;
      }
+     nav.navbar-light
+     {
+          width: 100vw;
+     }
+     nav.navbar-light .navbar-nav
+     {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          background-color: rgba(0, 0, 0, 0.7);
+     }
      nav.navbar-light .navbar-nav .nav-link
      {
-          padding: 0;
-          text-align: end;
+          text-align: start;
           color: orange;
-          border: 1px solid red;
-          background-color: linear-gradient(75deg, #474141, #8f8080);
+          width: 100%;
+          padding: 0;
+          display: block;
+          box-sizing: border-box;
+          margin: 0;
      }
 }
 
@@ -210,15 +227,13 @@ h1
      .name
      {
           font-size: 1em;
-          margin-right: -80px;
-          margin-left: -50px;
-          border: 1px solid red;
+          margin-top: 3%;
      }
      nav.navbar-light .navbar-nav .nav-link
      {
-          margin-left: -60px;
-          font-size: 1em;
           padding: 0;
+          margin-left: -160px;
+          font-size: 1em;
      }
 }
 
