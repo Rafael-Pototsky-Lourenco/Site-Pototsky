@@ -8,8 +8,11 @@
 
 #contact
 {
-     background: url(../../../assets/imagens/contactWallpaper.jpg) no-repeat top;
-     padding-top: 5px;
+     background: url(../../../assets/imagens/contactWallpaper.jpg) no-repeat center center fixed;
+     background-size: cover;
+     width: 100%;
+     height: auto;
+     background-attachment: fixed;
      padding-bottom: 3%;
 }
 
