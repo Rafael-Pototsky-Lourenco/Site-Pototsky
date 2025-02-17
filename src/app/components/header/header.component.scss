@@ -144,14 +144,23 @@ h1
 
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 575.98px)
-{ 
+{
+     #headerBackground
+     {
+          background: url('../../../assets/imagens/header-bg.jpg') no-repeat center center;
+          background-size: cover;     
+          width: auto;
+          height: auto;
+     }
      h1
      {
+          margin-top: 5%;
           font-size: 2em;
      }
      .name
      {
           font-size: 1em;
+          margin-top: 5px;
      }
      .buttonAboutMe
      {

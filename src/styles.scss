@@ -9,3 +9,12 @@ html
 {
      scroll-padding-top: 4.5rem;
 }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 575.98px)
+{
+     body
+     {
+          overflow-x: hidden;
+     }
+}
