@@ -29,11 +29,23 @@
 {
      margin-left: 3%;
      text-decoration: none;
+
+     &:hover
+     {
+          color: red;
+     }
 }
 
-.linkCourse:hover
+.linkCourse.disabled
 {
-     color: red;
+     pointer-events: none;
+     color: gray;
+     text-decoration: none;
+
+     &:hover
+     {
+          color: gray;
+     }
 }
 
 .numba
