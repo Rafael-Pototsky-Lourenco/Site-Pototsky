@@ -11,7 +11,8 @@
                     <span><b> Instituição: </b> {{ courseInstitution }} </span><br>
                     <span><b>Tags:</b> {{ courseTags }} </span><br>
                     <span><b>Concluído em:</b> {{ courseConclusion }} </span>
-                    <a class="linkCourse" [href]="courseLink" target="_blank">Certificado</a>
+                    <a *ngIf="courseLink" class="linkCourse" [href]="courseLink" target="_blank">Certificado</a>
+                    <span *ngIf="!courseLink" class="linkCourse disabled">Certificado</span>
                </div>
           </div>
      </li>
